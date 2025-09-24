@@ -109,3 +109,6 @@ if (doubleTheValues && typeof doubleTheValues === 'function') {
 
 // const result = evenNumbersWithin(280);
 // console.log(JSON.stringify(result, null, 2));
+
+// const result = calculateFactorials([0, 1, 2, 3, 4, 5]);
+// console.log(JSON.stringify(result, null, 2));

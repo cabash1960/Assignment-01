@@ -159,8 +159,11 @@ export function calculateFactorials(arrayOfNumbers) {
     //   write your code here
     // create an array of numbers from each value of the area
     result = arrayOfNumbers.map((num) => {
+        if (num < 0)
+            return 0
         if (num === 0)
             return 1
+
         return Array.from({ length: num }, (_, i) => i + 1).reduce(
             (acc, num) => acc * num,
             1,
